@@ -1,0 +1,313 @@
+:root {
+    --pink: #EDE6DE; 
+    --pink-brown:  #dac2b7;
+    
+  }
+  body {
+    margin: 0;
+    background-color: #FAF9F7;
+  }
+  
+
+/*Start*/
+.third-photo {
+  height: 600px;
+  width: 600px;
+  margin-left: -260px;
+}
+
+.first-photo{
+  height: 480px;
+  width: 350px;
+  margin-top: 0px;
+  margin-left: -20px;
+
+}
+
+.second-photo{
+  height: 350px;
+  width: 250px;
+  margin-top: 50px;
+  margin-left: -190px;
+}
+
+.fourth-photo {
+  height: 300px;
+  width: 360px;
+  margin-right: -500px;
+}
+
+
+
+.start-section {
+  background-color: var(--pink);
+  width: 100%; 
+  height: 790px;
+  margin: auto;
+  padding: 10px; 
+  position: relative;
+  bottom: 5px;
+  top: -410px;
+  z-index: -1;
+}
+.start-section .col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+
+.start-section .col {
+  margin-top: 400Px;
+}
+
+.vertical-rectangle {
+  position: absolute;
+  bottom: -56.5%;
+  right: 0;
+  width: 320px;
+  height: 300px;
+  border-right-width: 0; 
+  border-radius: 250px 250px 0px 250px;
+  background-color: var(--pink-brown);
+}
+
+.vertical-rectangle1 {
+  position: absolute;
+  bottom: -50%;
+  left: 0;
+  width: 420px;
+  height: 300px;
+  border-right-width: 0; 
+  border-radius: 0px 250px 250px 0px;
+  background-color: var(--pink-brown);
+  z-index: -1;
+}
+
+/*Gallery section */
+
+.gallery-photo {
+  width: 350px;
+  height: 450px;
+  border-radius: 250px 250px 0px 0px; 
+}
+
+.text-bold {
+  font-weight: bold; 
+}
+
+.text-center {
+  text-align: center; 
+}
+
+.btn-warning {
+  background-color: var(--pink-brown);
+  border-color: var(--pink-brown);
+  border-radius: 0;
+}
+
+
+.gallery-section .col {
+  position: relative;
+  height: 30px;
+  width: 100px;
+  margin-top: -310px;
+}
+
+
+
+.gallery-section .col::after {
+  content: '';
+  position: absolute;
+  bottom: -430px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 40px;
+  background-color: white;
+  border-radius: 250px 250px 0px 0px;
+  border-top-width: 0px;
+}
+
+
+.gallery-section .col img {
+  margin-bottom: 15px;
+}
+
+.gallery-section .col h3,
+.gallery-section .col p,
+.gallery-section .col button {
+  margin-bottom: 20px; 
+}
+
+.center-line {
+  height: 2px; 
+  width: 75%; 
+  background-color: black; 
+  margin: 450px auto; 
+}
+
+
+/*ABout*/
+.about-section {
+ margin-top: -345px;
+}
+
+.about-text h4 {
+  text-transform: lowercase; 
+}
+
+.about-text h2 {
+  font-weight: bold; 
+}
+
+.about-images {
+  margin-top: 0px; 
+}
+
+.large-image {
+  height: 500px; 
+  width: 350px;
+}
+
+.small-image {
+  height: 250px;
+  width: 200px; 
+  margin-top: 20px;
+  margin-left: -60px;
+}
+
+.about-text h2 {
+  margin-bottom: 30px; 
+}
+
+.about-text p {
+  margin-top: 30px; 
+}
+
+.another-image {
+  height: 450px; 
+  width: 460px; 
+  margin-top: -90px; 
+}
+
+/*Desing*/
+
+.desing {
+  background-color: var(--pink);
+  width: 100%; 
+  height: 400px;
+  margin: auto;
+  padding: 10px; 
+  position: relative;
+  bottom: 5px;
+  top: 60px;
+  z-index: -1;
+}
+.desing .col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+
+.desing .col {
+  margin-top: 50Px;
+}
+
+/*More images */
+.more-images-section {
+  padding: 100px 0; 
+  text-align: center; 
+}
+
+.more-images-section h2 {
+  margin-bottom: 50px; 
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.column {
+	float: left;
+	width: 16.5%;
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.column img {
+  height: 250px;
+}
+
+.center-line1 {
+  height: 1px; 
+  width: 90%; 
+  background-color: black; 
+  margin: -20px auto; 
+}
+
+/*Footer*/
+.footer-section {
+ 
+  color: rgb(2, 2, 2);
+  padding: 50px 0;
+}
+
+.subscribe-text h2 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.subscribe-text p {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 20px;
+}
+
+.footer-links ul li a {
+  color: rgb(15, 13, 13);
+ 
+}
+
+.btn-black {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+.btn-black:hover {
+  background-color: #333;
+}
+
+
+
+.email-form button {
+ margin-left: 0px;
+}
+
+.email-form input[type="email"]{
+  margin-left: 80px;
+}
+
+.social-icons a {
+  color: black;
+}
